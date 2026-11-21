@@ -4,9 +4,9 @@
    ============================================================ */
 const DAFTAR_KOMIK = [
   {
-    judul: "Judul Komik Pertamaku",
+    judul: "Lunox X Gloo",
     sampul: "https://postimg.cc/Y42YwgHn",
-    link: "https://github.com/USERNAME/REPO/releases/latest"
+    link: "https://move2link.co/0da0ff2"
   }
 ];
 
