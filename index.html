@@ -4,23 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Komik Mlbb</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    .komik {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      max-width: 400px;
+      margin-bottom: 12px;
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+    .komik img {
+      width: 80px;
+      height: 120px;
+      object-fit: cover;
+    }
+    .komik h2 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .komik a {
+      display: inline-block;
+      padding: 6px 14px;
+      border: 1px solid #000;
+      color: #000;
+      text-decoration: none;
+      transition: transform .1s;
+    }
+    .komik a:active {
+      transform: scale(0.9);
+    }
+  </style>
 </head>
 <body>
 
-  <div class="wrap">
-    <header>
-      <h1>Komik MLBB</h1>
-      <p>Klik tombol di bawah untuk mengunduh</p>
-    </header>
-
-    <!-- Tempel kode iklan di sini kalau mau -->
-
-    <main class="grid" id="grid"></main>
-
-    <!-- Atau tempel kode iklan di sini -->
+  <div class="komik">
+    <img src="https://i.postimg.cc/Wb4hQGrq/Lunox-X-Gloo.jpg" alt="sampul">
+    <div>
+      <h2>Lunox X Gloo</h2>
+      <a https://move2link.co/0da0ff2">Download</a>
+    </div>
   </div>
 
-  <script src="script.js"></script>
+  <!-- Komik baru: copy blok <div class="komik">...</div> di atas, tempel di bawahnya -->
+
 </body>
 </html>
